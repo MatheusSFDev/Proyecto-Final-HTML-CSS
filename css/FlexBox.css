@@ -14,3 +14,7 @@ header {
     padding: 12px;
     background-color: #A53E2E;
 }
+
+nav ul {
+    display: flex;
+}
