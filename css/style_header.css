@@ -1,0 +1,20 @@
+img.img_logo {
+    height: 100px;
+    width: 100px;
+    margin: 8px;
+}
+
+nav ul {
+    display: flex;
+}
+
+nav ul li {
+    list-style: none;
+    padding: 8px;
+}
+
+nav ul li a {
+    font-size: 24px;
+    color: #FFFCE2;
+    text-decoration: none;
+}

@@ -1,0 +1,16 @@
+* { margin : 0; }
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 12px;
+    background-color: #A53E2E;
+}
