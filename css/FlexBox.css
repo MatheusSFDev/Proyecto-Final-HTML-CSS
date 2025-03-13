@@ -11,10 +11,28 @@ header {
     justify-content: space-between;
     align-items: center;
 
-    padding: 12px;
+    padding: 8px;
     background-color: #A53E2E;
 }
 
 nav ul {
     display: flex;
+}
+
+/*  Condiciones para @media
+    - min-width
+    - min-height
+    - max-width
+    - max-height
+    @media (condicion) and (condicion) ...
+*/
+
+/*Responsive for Tablets*/
+@media (min-width: 601px) and (max-width: 1279px) {
+
+}
+
+/*Responsive for Mobile*/
+@media (max-width: 600px) {
+
 }
