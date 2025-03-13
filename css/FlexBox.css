@@ -10,13 +10,10 @@ header {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    max-width: 100vw;
 
     padding: 8px;
     background-color: #A53E2E;
-}
-
-nav ul {
-    display: flex;
 }
 
 /*  Condiciones para @media
@@ -25,6 +22,8 @@ nav ul {
     - max-width
     - max-height
     @media (condicion) and (condicion) ...
+    
+    Modelos ->
 */
 
 /*Responsive for Larger Desktop*/

@@ -4,6 +4,10 @@ img.img_logo {
     margin: 8px;
 }
 
+nav ul {
+    display: flex;
+}
+
 nav ul li {
     list-style: none;
     padding: 16px;
