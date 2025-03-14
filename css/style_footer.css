@@ -11,18 +11,18 @@ div p.w3c { /*Eliminar Luego cuando se añada las validaciones*/
     font-size: 20px;
 }
 
-div.icons ul {
+div.icons {
     display: flex;
 }
 
-div.icons ul li {
-    list-style: none;
-    padding: 32px;
+div.icons p {
+    margin: 4px 32px;
 }
 
-div.icons ul li { /*Eliminar Luego cuando añada los iconos*/
+div.icons p { /*Eliminar Luego cuando añada los iconos*/
     font-size: 36px;
     color: antiquewhite;
+    text-align: center;
 }
 
 div.volver a {
@@ -43,12 +43,24 @@ div.cc {
     color: antiquewhite; /*Eliminar Luego*/
 }
 
-/*Responsive for Tablets*/
-@media (min-width: 601px) and (max-width: 1279px) {
-
-}
-
 /*Responsive for Mobile*/
 @media (max-width: 600px) {
+    div.footer_linear {
+        flex-direction: column;
+    }
 
+    div.icons {
+        order: 1;
+    }
+
+    p.w3c {
+        order: 2;
+        margin: 16px;
+    }
+
+    div.volver {
+        order: 3;
+        visibility: hidden;
+        height: 0px;
+    }
 }

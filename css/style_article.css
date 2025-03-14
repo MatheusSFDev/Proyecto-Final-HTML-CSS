@@ -25,7 +25,7 @@ div#contenido3 {
     background-color: #043F2D;
 }
 
-div#contenido1, div#contenido2, div#contenido3 h1 {
+div#contenido1, div#contenido2, div#contenido3 { /*Borrar Luego cuando añada contenido*/
     font-size: 96px;
     color: #A53E2E; /*Color por decidir*/
 }
