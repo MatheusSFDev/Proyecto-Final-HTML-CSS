@@ -5,7 +5,8 @@ div.footer_linear {
 }
 
 div p.w3c { /*Eliminar Luego cuando se añada las validaciones*/
-    background-color: antiquewhite;
+    background-color: #043F2D;
+    color: #FFF8E1;
     border-radius: 12px;
     padding: 4px;
     font-size: 20px;
@@ -21,15 +22,16 @@ div.icons p {
 
 div.icons p { /*Eliminar Luego cuando añada los iconos*/
     font-size: 36px;
-    color: antiquewhite;
+    font-weight: 600;
+    color: #043F2D;
     text-align: center;
 }
 
 div.volver a {
-    background-color: antiquewhite;
+    background-color: #043F2D;
     border-radius: 16px;
     padding: 8px;
-    color: black;
+    color: #FFF8E1;
     font-size: 28px;
     text-decoration: none;
 }
@@ -40,7 +42,7 @@ div.cc {
     align-items: center;
     padding: 8px;
     text-align: center;
-    color: antiquewhite; /*Eliminar Luego*/
+    color: #043F2D; /*Eliminar Luego*/
 }
 
 /*Responsive for Mobile*/
