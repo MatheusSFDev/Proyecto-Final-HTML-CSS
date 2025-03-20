@@ -62,11 +62,11 @@ nav .boton  {
 }
 
 nav .boton .barra {
-    width: 40px;
-    height: 5px;
+    width: 50px;
+    height: 8px;
     margin-bottom: 10px;
-    background-color: black;
-    border-radius: 10%;
+    background-color: #043F2D;
+    border-radius: 10px;
     transition: 0.5s;
     z-index: 3;
 }
