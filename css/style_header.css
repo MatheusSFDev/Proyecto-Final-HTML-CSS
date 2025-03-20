@@ -94,7 +94,7 @@ header input:checked ~ nav .boton .barra:nth-child(3){
 }
 
 /*Responsive for Mobile*/
-@media (max-width: 600px) {
+@media (max-width: 800px) {
     nav ul {
         display: flex;
         flex-direction: column;
@@ -112,6 +112,10 @@ header input:checked ~ nav .boton .barra:nth-child(3){
 
     nav ul li {
         text-align: center;
+    }
+
+    nav ul li a {
+        font-size: 48px;
     }
 
     nav .boton  {

@@ -14,21 +14,37 @@ div.bienvenido {
 }
 
 div#contenido1 {
-    background-color: #0F0909;
+    background-color: #157F50;
     background-image: url(../img/Backgrounds/FondoBienvenido_Desktop.jpg);
 }
 
 div#contenido2 {
-    background-color: #4957AF;
+    background-color: #E57A44;
 }
 
 div#contenido3 {
-    background-color: #043F2D;
+    background-color: #F4A127;
 }
 
-div#contenido1, div#contenido2, div#contenido3 { /*Borrar Luego cuando añada contenido*/
+div#contenido2, div#contenido3 { /*Borrar Luego cuando añada contenido*/
     font-size: 96px;
-    color: #A53E2E; /*Color por decidir*/
+    color: #FFF8E1; /*Color por decidir*/
+}
+
+div#contenido1 {
+    flex-direction: column;
+    text-align: center;
+    
+    color: #FFF8E1;
+    text-shadow: 3px 6px 5px #000000;
+}
+
+div#contenido1 h1 {
+    font-size: 164px;
+}
+
+div#contenido1 h3 {
+    font-size: 64px;
 }
 
 /*Responsive for Larger Desktop*/

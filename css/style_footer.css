@@ -40,7 +40,7 @@ div.cc a {
 }
 
 /*Responsive for Mobile*/
-@media (max-width: 600px) {
+@media (max-width: 800px) {
     div.footer_linear {
         flex-direction: column;
     }
