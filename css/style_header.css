@@ -94,7 +94,7 @@ header input:checked ~ nav .boton .barra:nth-child(3){
 }
 
 /*Responsive for Mobile*/
-@media (max-width: 800px) {
+@media (max-width: 600px) {
     nav ul {
         display: flex;
         flex-direction: column;
@@ -102,7 +102,7 @@ header input:checked ~ nav .boton .barra:nth-child(3){
         background-color: #F4E1C1;
         width: 100%;
         max-width: 100vw;
-        top: 116px;
+        top: 90px;
         right: 0;
         transform: translateY(-100%);
         z-index: -1;
@@ -116,5 +116,10 @@ header input:checked ~ nav .boton .barra:nth-child(3){
 
     nav .boton  {
         display: grid !important;
+    }
+
+    img.img_logo {
+        width: 75px;
+        height: 75px;
     }
 }
