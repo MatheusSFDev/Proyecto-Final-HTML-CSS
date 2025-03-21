@@ -1,4 +1,12 @@
-div.bienvenido {
+/* by Matheus Souza */
+
+div#contenido2, div#contenido3 { /*Borrar Luego cuando añada contenido*/
+    font-size: 96px;
+    color: #FFF8E1;
+}
+
+/* Configuración de los Bloques */
+div.bloque {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -6,31 +14,21 @@ div.bienvenido {
     height: 100vh;
     background-repeat: no-repeat;
     background-position: 50% 50%; 
-    
     object-fit: cover;
     position: sticky;
     top: 0;
     z-index: -1;
 }
 
+/* Color y Imagen de Fondo de los Bloques */
 div#contenido1 {
     background-color: #157F50;
     background-image: url(../img/Backgrounds/FondoBienvenido_Desktop.jpg);
 }
+div#contenido2 { background-color: #E57A44; }
+div#contenido3 { background-color: #F4A127; }
 
-div#contenido2 {
-    background-color: #E57A44;
-}
-
-div#contenido3 {
-    background-color: #F4A127;
-}
-
-div#contenido2, div#contenido3 { /*Borrar Luego cuando añada contenido*/
-    font-size: 96px;
-    color: #FFF8E1; /*Color por decidir*/
-}
-
+/* Estilo del Contenido 1 */
 div#contenido1 {
     flex-direction: column;
     text-align: center;
@@ -40,14 +38,7 @@ div#contenido1 {
 
 div#contenido1 h1 { font-size: 10vw; }
 div#contenido1 h2 { font-size: 4vw; }
-
-/*Responsividad para la imagen de Fondo*/
-/*Responsive for Larger Desktop*/
-@media (min-width: 1921px) { div#contenido1 { background-image: url(../img/Backgrounds/FondoBienvenido_LargerDesktop.jpg); } }
-/*Responsive for Tablets*/
-@media (min-width: 601px) and (max-width: 1279px) { div#contenido1 { background-image: url(../img/Backgrounds/FondoBienvenido_Tablet.jpg); } }
-/*Responsive for Mobile*/
-@media (max-width: 600px) { div#contenido1 { background-image: url(../img/Backgrounds/Fondo_Bienvenido_Mobile.jpg); } }
+/* Fin Estilo del Contenido 1 */
 
 /*Responsive for Tablets*/
 @media (min-width: 801px) and (max-width: 1279px) {
@@ -59,3 +50,8 @@ div#contenido1 h2 { font-size: 4vw; }
     div#contenido1 h1 { font-size: 20vw; }
     div#contenido1 h2 { font-size: 8vw; }
 }
+
+/*Responsividad para la imagen de Fondo del 1º Bloque */
+@media (min-width: 1921px) { div#contenido1 { background-image: url(../img/Backgrounds/FondoBienvenido_LargerDesktop.jpg); } }
+@media (min-width: 601px) and (max-width: 1279px) { div#contenido1 { background-image: url(../img/Backgrounds/FondoBienvenido_Tablet.jpg); } }
+@media (max-width: 600px) { div#contenido1 { background-image: url(../img/Backgrounds/Fondo_Bienvenido_Mobile.jpg); } }

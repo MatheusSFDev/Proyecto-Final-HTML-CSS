@@ -1,19 +1,21 @@
+/* by Matheus Souza */
+
 @font-face {
     font-family: 'Federo';
     src: url(../fonts/Federo-Regular.ttf) format('truetype');
 }
 
+/* Estilo del Logo */
 img.img_logo {
     width: 100px;
     height: 100px;
-    margin: 4px 12px;
     border-radius: 20px;
+    margin: 4px 12px;
     z-index: 2;
 }
 
-nav ul {
-    display: flex;
-}
+/* Estilo del Menu */
+nav ul { display: flex; }
 
 nav ul li {
     list-style: none;
@@ -28,10 +30,8 @@ nav ul li a {
     text-align: center;
 }
 
-/*Hover Efect*/
-nav ul li a {
-    position: relative;
-}
+/* Hover Efect */
+nav ul li a { position: relative; }
 
 nav ul li a::before {
     content: '';
@@ -51,6 +51,7 @@ nav ul li a:hover::before {
     transform-origin: left;
     transform: scaleX(1);
 }
+/* Fin Hover Efect */
 
 /* Hamburger Menu */
 nav .boton  {
@@ -71,29 +72,17 @@ nav .boton .barra {
     z-index: 3;
 }
 
-header input {
-    display: none;
-}
+header input { display: none; }
 
 header input:checked ~ nav ul {
     transform: translateY(0);
     z-index: 1;
 }
 
-header input:checked ~ nav .boton .barra:nth-child(1){
-    position: absolute;
-    transform: rotate(45deg);
-}
+header input:checked ~ nav .boton .barra:nth-child(1){ position: absolute; transform: rotate(45deg); }
+header input:checked ~ nav .boton .barra:nth-child(2){ display: none; }
+header input:checked ~ nav .boton .barra:nth-child(3){ transform: rotate(-45deg); }
 
-header input:checked ~ nav .boton .barra:nth-child(2){
-    display: none;
-}
-
-header input:checked ~ nav .boton .barra:nth-child(3){
-    transform: rotate(-45deg);
-}
-
-/*Responsive for Mobile*/
 @media (max-width: 800px) {
     nav ul {
         display: flex;
@@ -110,18 +99,17 @@ header input:checked ~ nav .boton .barra:nth-child(3){
         padding-left: 0px;
     }
 
-    nav ul li {
-        text-align: center;
-    }
+    nav ul li { text-align: center; }
 
-    nav ul li a {
-        font-size: 48px;
-    }
+    nav ul li a { font-size: 48px; }
 
-    nav .boton  {
-        display: grid !important;
-    }
+    nav .boton  { display: grid !important; }
+}
+/* Fin Hamburger Menu */
+/* Fin Estilo del Menu */
 
+/*Responsive for Mobile*/
+@media (max-width: 800px) {
     img.img_logo {
         width: 75px;
         height: 75px;
