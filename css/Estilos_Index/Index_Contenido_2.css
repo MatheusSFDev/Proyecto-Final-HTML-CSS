@@ -1,0 +1,62 @@
+/* by Matheus Souza */
+
+div#contenido2 {
+    background-color: #157F50;
+    justify-content: center;
+    align-items: center;
+    padding: 32px 64px;
+    color: #FFF8E1;
+}
+
+div#contenido2 .titulo_horizontal{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+div#contenido2 .titulo_horizontal p {
+    font-size: 96px;
+    text-shadow: -4px 0px 5px #043F2D;
+}
+
+div#contenido2 .linea {
+    height: 80vh;
+    width: 10px;
+    background-color: #FFF8E1;
+    margin: 80px;
+    border-radius: 16px;
+}
+
+div#contenido2 .texto {
+    width: 50vw;
+    font-size: 2.5vw;
+    text-align: justify;
+}
+
+/*Responsive for Tablets*/
+@media (min-width: 801px) and (max-width: 1279px) {
+    div#contenido2 .texto { font-size: 3.5vw; }
+}
+
+/*Responsive for Mobile*/
+@media (max-width: 800px) {
+    div#contenido2 { 
+        flex-direction: column;
+        padding: 0px 32px;
+        padding-bottom: 48px;
+    }
+    div#contenido2 .linea {
+        min-width: 80vw;
+        min-height: 1vh;
+        max-height: 1vh;
+        margin: 4px;
+        margin-bottom: 32px;
+    }
+    div#contenido2 .titulo_horizontal{ flex-direction: row; }
+    div#contenido2 .titulo_horizontal p { font-size: 20vw; }
+    div#contenido2 .texto { 
+        font-size: 5vw; 
+        width: 70vw;
+    }
+}

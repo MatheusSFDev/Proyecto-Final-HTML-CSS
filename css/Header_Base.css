@@ -30,7 +30,7 @@ nav ul li a {
     text-align: center;
 }
 
-/* Hover Efect */
+/* Hover Efect de los Enlaces */
 nav ul li a { position: relative; }
 
 nav ul li a::before {
