@@ -4,7 +4,7 @@
 div.bloque {
     display: flex;
     max-width: 100vw;
-    height: 100vh;
+    min-height: 100vh;
     background-repeat: no-repeat;
     background-position: 50% 50%; 
     object-fit: cover;
@@ -19,7 +19,7 @@ div#contenido1 {
     background-image: url(../img/Backgrounds/FondoBienvenido_Desktop.jpg);
 }
 div#contenido2 { background-color: #157F50; }
-div#contenido3 { background-color: #F4A127; }
+div#contenido3 { background-color: #CEE4C8; }
 
 /* Estilo del Contenido 1 */
 div#contenido1 {
@@ -75,41 +75,73 @@ div#contenido3 {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding: 32px 10vw;
+}
+
+div#contenido3 h2 {
+    font-size: 5vw;
+    text-align: center;
+    color: #043F2D;
 }
 
 div#contenido3 .linea_1 {
     width: 80vw;
-    height: 10px;
     background-color: #043F2D;
     border-radius: 16px;
     margin: 16px;
+    min-height: 1vh;
+    max-height: 1vh;
 }
 
 div#contenido3 .texto_imagen {
+    width: 100%;
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
 }
 
-div#contenido3 .linea_2 {
-    width: 20px;
-    height: 50vh;
-    background-color: #043F2D;
-    border-radius: 16px;
-    margin: 16px;
+div#contenido3 .texto_mision {
+    width: 40vw;
+    font-size: 2.5vw;
+    text-align: justify;
+    color: #043F2D;
 }
 
-div#contenido3 img {
-    width: 20vw; /*Cambiar Luego*/
+div#contenido3 .linea_2 {
+    width: 10px;
+    height: 60vh;
+    background-color: #043F2D;
+    border-radius: 16px;
+    margin: 0px 16px;
 }
+
+div#contenido3 img { width: 38vw; }
 /* Fin Estilo del Contenido 3 */
 
 /*Responsive for Tablets*/
 @media (min-width: 801px) and (max-width: 1279px) {
     div#contenido1 h1 { font-size: 15vw; }
     div#contenido1 h2 { font-size: 6vw; }
+
     div#contenido2 .texto_sobre { font-size: 3.5vw; }
+
+    div#contenido3 h2 { font-size: 8vw; }
+    div#contenido3 .texto_imagen {
+        flex-direction: column;
+    }
+    div#contenido3 .linea_2 {
+        width: 60vw;
+        margin: 16px;
+        min-height: 1vh;
+        max-height: 1vh;
+    }
+    div#contenido3 .texto_mision {
+        width: 75vw;
+        font-size: 3vw;
+    }
+    div#contenido3 img { width: 56vw; }
 }
+
 /*Responsive for Mobile*/
 @media (max-width: 800px) {
     div#contenido1 h1 { font-size: 20vw; }
@@ -133,6 +165,22 @@ div#contenido3 img {
         font-size: 5vw; 
         width: 70vw;
     }
+
+    div#contenido3 h2 { font-size: 10vw; }
+    div#contenido3 .texto_imagen {
+        flex-direction: column;
+    }
+    div#contenido3 .linea_2 {
+        width: 60vw;
+        margin: 16px;
+        min-height: 1vh;
+        max-height: 1vh;
+    }
+    div#contenido3 .texto_mision {
+        width: 75vw;
+        font-size: 6vw;
+    }
+    div#contenido3 img { width: 80vw; }
 }
 
 /*Responsividad para la imagen de Fondo del 1º Bloque */
