@@ -5,7 +5,7 @@ div#contenido3 {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 32px 10vw;
+    padding: 16px 10vw;
 }
 
 div#contenido3 h2 {
@@ -45,7 +45,10 @@ div#contenido3 .linea_2 {
     margin: 0px 16px;
 }
 
-div#contenido3 img { width: 38vw; }
+div#contenido3 img { 
+    width: 38vw;
+    border-radius: 24px; 
+}
 
 /*Responsive for Tablets*/
 @media (min-width: 801px) and (max-width: 1279px) {
@@ -83,8 +86,8 @@ div#contenido3 img { width: 38vw; }
 
     div#contenido3 .texto {
         width: 75vw;
-        font-size: 6vw;
+        font-size: 5vw;
     }
 
-    div#contenido3 img { width: 80vw; }
+    div#contenido3 img { width: 80vw; min-height: 20vh; max-width: 80vw;}
 }

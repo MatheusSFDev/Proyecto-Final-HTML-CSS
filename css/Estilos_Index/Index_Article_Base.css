@@ -1,7 +1,7 @@
 /* by Matheus Souza */
 
 /* Configuración de los Bloques */
-div.bloque {
+article div.bloque {
     display: flex;
     max-width: 100vw;
     min-height: 100vh;
