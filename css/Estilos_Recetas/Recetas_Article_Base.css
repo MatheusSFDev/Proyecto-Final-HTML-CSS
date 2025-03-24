@@ -1,0 +1,12 @@
+/* by Matheus Souza */
+
+.placeholder { /*Eliminar Luego*/
+    width: 100vw;
+    height: 80vh;
+    background-color: #043F2D;
+    color : #FFF8E1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20vw;
+}
