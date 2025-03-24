@@ -18,6 +18,7 @@ div#contenido2 .titulo_horizontal{
 div#contenido2 .titulo_horizontal p {
     font-size: 96px;
     text-shadow: -4px 0px 5px #043F2D;
+    font-family: Birthstone;
 }
 
 div#contenido2 .linea {
@@ -32,6 +33,7 @@ div#contenido2 .texto {
     width: 50vw;
     font-size: 2.5vw;
     text-align: justify;
+    font-family: Pattaya;
 }
 
 /*Responsive for Tablets*/

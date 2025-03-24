@@ -12,6 +12,8 @@ div#contenido3 h2 {
     font-size: 5vw;
     text-align: center;
     color: #043F2D;
+    font-family: Birthstone;
+    text-transform: uppercase;
 }
 
 div#contenido3 .linea_1 {
@@ -35,6 +37,7 @@ div#contenido3 .texto {
     font-size: 2.5vw;
     text-align: justify;
     color: #043F2D;
+    font-family: Pattaya;
 }
 
 div#contenido3 .linea_2 {

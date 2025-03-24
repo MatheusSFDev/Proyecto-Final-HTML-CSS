@@ -1,10 +1,5 @@
 /* by Matheus Souza */
 
-@font-face {
-    font-family: 'Federo';
-    src: url(../fonts/Federo-Regular.ttf) format('truetype');
-}
-
 /* Estilo del Logo */
 img.img_logo {
     width: 100px;
@@ -24,8 +19,8 @@ nav ul li {
 
 nav ul li a {
     color: #043F2D;
-    font-family: Federo;
-    font-size: 32px;
+    font-family: Birthstone;
+    font-size: 64px;
     text-decoration: none;
     text-align: center;
 }

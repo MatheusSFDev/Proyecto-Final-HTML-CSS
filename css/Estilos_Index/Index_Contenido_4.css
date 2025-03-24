@@ -11,6 +11,9 @@ div#contenido4 {
 
 div#contenido4 h2 {
     font-size: 4.5vw;
+    font-family: Birthstone;
+    text-transform: uppercase;
+    text-align: center;
 }
 
 div#contenido4 .linea {

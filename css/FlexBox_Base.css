@@ -1,5 +1,15 @@
 /* by Matheus Souza*/
 
+@font-face {
+    font-family: 'Birthstone';
+    src: url(../fonts/Titulos_Birthstone-Regular.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'Pattaya';
+    src: url(../fonts/Textos_Pattaya-Regular.ttf) format('truetype');
+}
+
 * { margin : 0; }
 
 html { scroll-behavior: smooth; }
@@ -26,6 +36,7 @@ footer {
     min-height: 100px;
     padding: 8px;
     background-color: #F4E1C1;
+    font-family: Pattaya;
 }
 
 /*  Condiciones para @media
