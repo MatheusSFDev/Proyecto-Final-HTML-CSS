@@ -1,12 +1,39 @@
 /* by Matheus Souza */
 
-.placeholder { /*Eliminar Luego*/
-    width: 100vw;
-    height: 80vh;
+article { /*Eliminar Luego*/
+    max-width: 100vw;
+    min-height: 80vh;
     background-color: #043F2D;
     color : #FFF8E1;
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
     font-size: 20vw;
+    padding: 64px;
+}
+
+article .imagenes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 60vh;
+    width: 30vw;
+    background-color: antiquewhite;
+}
+
+article .imagenes .imagen {
+    width: 20vw;
+    height: 10vh;
+    object-fit: cover;
+    border: 2px solid #FFF8E1;
+    margin: 16px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all ease-in-out 0.5s;
+}
+
+article .imagenes .imagen:hover {
+    height: 20vh;
 }
