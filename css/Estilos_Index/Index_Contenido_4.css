@@ -34,22 +34,22 @@ div#contenido4 .carrusel {
     background-size: 100%;
     background-repeat: no-repeat;
     background-position: 50% 50%;
-    background-image: url( "../../img/Fotos/Carrusel_Fotos_Index/Desktop/PastaCarbonara.jpg"),
-                      url( "../../img/Fotos/Carrusel_Fotos_Index/Desktop/Strogonoff.jpg"),
-                      url( "../../img/Fotos/Carrusel_Fotos_Index/Desktop/LemonPie.jpg"),
-                      url( "../../img/Fotos/Carrusel_Fotos_Index/Desktop/CerdoAgridulce.jpg"),
-                      url( "../../img/Fotos/Carrusel_Fotos_Index/Desktop/Brownie.jpg"),
-                      url( "../../img/Fotos/Carrusel_Fotos_Index/Desktop/PastaCarbonara.jpg");
+    background-image: url( "../../Imgs/Imgs_Index/Contenido_4_Carrosel/Desktop/PastaCarbonara.jpg"),
+                      url( "../../Imgs/Imgs_Index/Contenido_4_Carrosel/Desktop/Strogonoff.jpg"),
+                      url( "../../Imgs/Imgs_Index/Contenido_4_Carrosel/Desktop/LemonPie.jpg"),
+                      url( "../../Imgs/Imgs_Index/Contenido_4_Carrosel/Desktop/CerdoAgridulce.jpg"),
+                      url( "../../Imgs/Imgs_Index/Contenido_4_Carrosel/Desktop/Brownie.jpg"),
+                      url( "../../Imgs/Imgs_Index/Contenido_4_Carrosel/Desktop/PastaCarbonara.jpg");
     animation: carrusel 30s ease 0s infinite;
 }
 
 @keyframes carrusel {
-    0% {background-image: url( "../../img/Fotos/Carrusel_Fotos_Index/Desktop/PastaCarbonara.jpg");}
-    20% {background-image: url( "../../img/Fotos/Carrusel_Fotos_Index/Desktop/Strogonoff.jpg");}
-    40% {background-image: url( "../../img/Fotos/Carrusel_Fotos_Index/Desktop/LemonPie.jpg");}
-    60% {background-image: url( "../../img/Fotos/Carrusel_Fotos_Index/Desktop/CerdoAgridulce.jpg");}
-    80% {background-image: url( "../../img/Fotos/Carrusel_Fotos_Index/Desktop/Brownie.jpg");}
-    100% {background-image: url( "../../img/Fotos/Carrusel_Fotos_Index/Desktop/PastaCarbonara.jpg");}
+    0% {background-image: url( "../../Imgs/Imgs_Index/Contenido_4_Carrosel/Desktop/PastaCarbonara.jpg");}
+    20% {background-image: url( "../../Imgs/Imgs_Index/Contenido_4_Carrosel/Desktop/Strogonoff.jpg");}
+    40% {background-image: url( "../../Imgs/Imgs_Index/Contenido_4_Carrosel/Desktop/LemonPie.jpg");}
+    60% {background-image: url( "../../Imgs/Imgs_Index/Contenido_4_Carrosel/Desktop/CerdoAgridulce.jpg");}
+    80% {background-image: url( "../../Imgs/Imgs_Index/Contenido_4_Carrosel/Desktop/Brownie.jpg");}
+    100% {background-image: url( "../../Imgs/Imgs_Index/Contenido_4_Carrosel/Desktop/PastaCarbonara.jpg");}
 }
 
 /*Responsive for Tablets*/
@@ -74,11 +74,11 @@ div#contenido4 .carrusel {
     }
 
     @keyframes carrusel {
-        0% {background-image: url( "../../img/Fotos/Carrusel_Fotos_Index/Mobile/PastaCarbonara.jpg");}
-        20% {background-image: url( "../../img/Fotos/Carrusel_Fotos_Index/Mobile/Strogonoff.jpg");}
-        40% {background-image: url( "../../img/Fotos/Carrusel_Fotos_Index/Mobile/LemonPie.jpg");}
-        60% {background-image: url( "../../img/Fotos/Carrusel_Fotos_Index/Mobile/CerdoAgridulce.jpg");}
-        80% {background-image: url( "../../img/Fotos/Carrusel_Fotos_Index/Mobile/Brownie.jpg");}
-        100% {background-image: url( "../../img/Fotos/Carrusel_Fotos_Index/Mobile/PastaCarbonara.jpg");}
+        0% {background-image: url( "../../Imgs/Imgs_Index/Contenido_4_Carrosel/Mobile/PastaCarbonara.jpg");}
+        20% {background-image: url( "../../Imgs/Imgs_Index/Contenido_4_Carrosel/Mobile/Strogonoff.jpg");}
+        40% {background-image: url( "../../Imgs/Imgs_Index/Contenido_4_Carrosel/Mobile/LemonPie.jpg");}
+        60% {background-image: url( "../../Imgs/Imgs_Index/Contenido_4_Carrosel/Mobile/CerdoAgridulce.jpg");}
+        80% {background-image: url( "../../Imgs/Imgs_Index/Contenido_4_Carrosel/Mobile/Brownie.jpg");}
+        100% {background-image: url( "../../Imgs/Imgs_Index/Contenido_4_Carrosel/Mobile/PastaCarbonara.jpg");}
     }
 }

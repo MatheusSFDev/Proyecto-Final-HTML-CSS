@@ -2,12 +2,12 @@
 
 @font-face {
     font-family: 'Birthstone';
-    src: url(../fonts/Titulos_Birthstone-Regular.ttf) format('truetype');
+    src: url(../Fonts/Titulos_Birthstone-Regular.ttf) format('truetype');
 }
 
 @font-face {
     font-family: 'Pattaya';
-    src: url(../fonts/Textos_Pattaya-Regular.ttf) format('truetype');
+    src: url(../Fonts/Textos_Pattaya-Regular.ttf) format('truetype');
 }
 
 * { margin : 0; }
