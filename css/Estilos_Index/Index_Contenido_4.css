@@ -35,7 +35,7 @@ div#contenido4 .carrusel {
     background-repeat: no-repeat;
     background-position: 50% 50%;
     background-image: url( "../../Imgs/Imgs_Index/Contenido_4_Carrosel/Desktop/PastaCarbonara.jpg"),
-                      url( "../../Imgs/Imgs_Index/Contenido_4_Carrosel/Desktop/Strogonoff.jpg"),
+                      url( "../../Imgs/Imgs_Index/Contenido_4_Carrosel/Desktop/Lasana.jpg"),
                       url( "../../Imgs/Imgs_Index/Contenido_4_Carrosel/Desktop/LemonPie.jpg"),
                       url( "../../Imgs/Imgs_Index/Contenido_4_Carrosel/Desktop/CerdoAgridulce.jpg"),
                       url( "../../Imgs/Imgs_Index/Contenido_4_Carrosel/Desktop/Brownie.jpg"),
@@ -45,7 +45,7 @@ div#contenido4 .carrusel {
 
 @keyframes carrusel {
     0% {background-image: url( "../../Imgs/Imgs_Index/Contenido_4_Carrosel/Desktop/PastaCarbonara.jpg");}
-    20% {background-image: url( "../../Imgs/Imgs_Index/Contenido_4_Carrosel/Desktop/Strogonoff.jpg");}
+    20% {background-image: url( "../../Imgs/Imgs_Index/Contenido_4_Carrosel/Desktop/Lasana.jpg");}
     40% {background-image: url( "../../Imgs/Imgs_Index/Contenido_4_Carrosel/Desktop/LemonPie.jpg");}
     60% {background-image: url( "../../Imgs/Imgs_Index/Contenido_4_Carrosel/Desktop/CerdoAgridulce.jpg");}
     80% {background-image: url( "../../Imgs/Imgs_Index/Contenido_4_Carrosel/Desktop/Brownie.jpg");}
@@ -75,7 +75,7 @@ div#contenido4 .carrusel {
 
     @keyframes carrusel {
         0% {background-image: url( "../../Imgs/Imgs_Index/Contenido_4_Carrosel/Mobile/PastaCarbonara.jpg");}
-        20% {background-image: url( "../../Imgs/Imgs_Index/Contenido_4_Carrosel/Mobile/Strogonoff.jpg");}
+        20% {background-image: url( "../../Imgs/Imgs_Index/Contenido_4_Carrosel/Mobile/Lasana.jpg");}
         40% {background-image: url( "../../Imgs/Imgs_Index/Contenido_4_Carrosel/Mobile/LemonPie.jpg");}
         60% {background-image: url( "../../Imgs/Imgs_Index/Contenido_4_Carrosel/Mobile/CerdoAgridulce.jpg");}
         80% {background-image: url( "../../Imgs/Imgs_Index/Contenido_4_Carrosel/Mobile/Brownie.jpg");}
