@@ -41,18 +41,19 @@ h2 {
 
 section .historia {
     max-width: 100vw;
-    background-color: #F4E1C1;
+    background-color: #F4E1C1;  
+}
 
-    h2 {
-        border-bottom-color: black;
-    }
-    p {
-        max-width: 100vw;
-        font-size: 2.5vw;
-        text-align: justify;
-        margin: 2.5vw;
-        font-family: Pattaya;
-    }
+section .historia h2 {
+    border-bottom-color: black;
+}
+
+section .historia p {
+    max-width: 100vw;
+    font-size: 2.5vw;
+    text-align: justify;
+    margin: 2.5vw;
+    font-family: Pattaya;
 }
 
 .receta {
@@ -82,13 +83,13 @@ section .historia {
     top: 24px;
     padding: 16px 2px;
     font-size: 1.5vw;
+}
 
-    li {
-        background-color: rgba(4, 63, 45, 0.75);
-        padding: 16px;
-        border-radius: 24px;
-        margin-bottom: 8px;
-    }
+.receta .ingredientes ul li {
+    background-color: rgba(4, 63, 45, 0.75);
+    padding: 16px;
+    border-radius: 24px;
+    margin-bottom: 8px;
 }
 
 .receta .pasos {
@@ -99,22 +100,22 @@ section .historia {
 .receta .pasos .paso .numero {
     display: flex;
     align-items: center;
+}
 
-    .num {
-        width: 4vw;
-        height: 4vw;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        background-color: rgba(244, 161, 39, 0.75);
-        border-radius: 1vw;
-        margin: 8px;
-        font-size: 3vw;
-    }
+.receta .pasos .paso .numero .num {
+    width: 4vw;
+    height: 4vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(244, 161, 39, 0.75);
+    border-radius: 1vw;
+    margin: 8px;
+    font-size: 3vw;
+}
 
-    h3 {
-        font-size: 3vw;
-    }
+.receta .pasos .paso .numero h3 {
+    font-size: 3vw;
 }
 
 .receta .pasos .paso ul {
@@ -130,15 +131,13 @@ section .historia {
     }
     section .historia p { font-size: 3.5vw; }
     .receta .ingredientes ul { font-size: 2.5vw; }
-    .receta .pasos .paso .numero {
-        .num {
-            width: 6vw;
-            height: 6vw;
-            border-radius: 2vw;
-            font-size: 5vw;
-        }
-        h3 { font-size: 5vw; }
+    .receta .pasos .paso .numero .num {
+        width: 6vw;
+        height: 6vw;
+        border-radius: 2vw;
+        font-size: 5vw;
     }
+    .receta .pasos .paso .numero h3 { font-size: 5vw; }
     .receta .pasos .paso ul { font-size: 3.5vw; }
 }
 
@@ -151,15 +150,13 @@ section .historia {
     h2 { font-size: 15vw; }
     section .historia p { font-size: 5.5vw; }
     .receta .ingredientes ul { font-size: 6vw; }
-    .receta .pasos .paso .numero {
-        .num {
-            width: 10vw;
-            height: 10vw;
-            border-radius: 3.5vw;
-            font-size: 8vw;
-        }
-        h3 { font-size: 8vw; }
+    .receta .pasos .paso .numero .num {
+        width: 10vw;
+        height: 10vw;
+        border-radius: 3.5vw;
+        font-size: 8vw;
     }
+    .receta .pasos .paso .numero h3 { font-size: 8vw; }
     .receta .pasos .paso ul { font-size: 5.5vw; }
     .receta { flex-direction: column; }
     .receta .ingredientes {
