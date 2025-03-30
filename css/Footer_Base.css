@@ -1,13 +1,5 @@
 /* by Matheus Souza */
 
-div p.w3c { /* Eliminar Luego cuando se añada la validacion */
-    background-color: #043F2D;
-    color: #FFF8E1;
-    border-radius: 12px;
-    padding: 4px;
-    font-size: 20px;
-}
-
 div.footer_linear {
     display: flex;
     justify-content: space-around;
