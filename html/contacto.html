@@ -3,7 +3,7 @@
 
 <html lang="es">
     <head>
-        <title> CookByte </title>
+        <title> CookByte - Contacto </title>
 
         <!-- Meta's -->
         <meta charset="UTF-8">
@@ -16,11 +16,7 @@
         <link rel="stylesheet" href="../CSS/FlexBox_Base.css">
         <link rel="stylesheet" href="../CSS/Header_Base.css">
         <link rel="stylesheet" href="../CSS/Footer_Base.css">
-        <link rel="stylesheet" href="../CSS/Estilos_Index/Index_Article_Base.css">
-        <link rel="stylesheet" href="../CSS/Estilos_Index/Index_Contenido_1.css">
-        <link rel="stylesheet" href="../CSS/Estilos_Index/Index_Contenido_2.css">
-        <link rel="stylesheet" href="../CSS/Estilos_Index/Index_Contenido_3.css">
-        <link rel="stylesheet" href="../CSS/Estilos_Index/Index_Contenido_4.css">
+        <link rel="stylesheet" href="../CSS/Contacto_Estilo.css">
 
         <!-- Favicon Links -->
         <link rel="icon" type="image/png" href="../Imgs/Favicon/favicon-96x96.png" sizes="96x96"/>
@@ -53,66 +49,23 @@
         </header>
         
         <article>
-            <div class="bloque" id="contenido1">
-                <h1> CookByte </h1>
-                <h2> Sabor a cada Bit </h2>
-            </div>
+            <h1> Contacta con Nosotros </h1>
 
-            <div class="bloque" id="contenido2">
-                <div class="titulo_horizontal">
-                    <p> S </p>
-                    <p> O </p>
-                    <p> B </p>
-                    <p> R </p>
-                    <p> E </p>
-                </div>
-
-                <div class="linea"></div>
-
-                <div class="texto">
-                    <p>
-                    ¡Bienvenido a CookByte!, un espacio creado para los amantes de la cocina, 
-                    tanto principiantes como expertos, 
-                    que buscan inspiración para preparar platos deliciosos y sencillos.
-                    </p>
-                    <br>
-                    <p> 
-                    La cocina siempre ha sido más que un lugar para preparar alimentos; 
-                    es donde nacen los mejores momentos, 
-                    donde se comparten risas y donde la creatividad toma vida en cada receta.
-                    </p>
-                </div>
-            </div>
-
-            <div class="bloque" id="contenido3">
-                <h2> Nuestra Misión </h2>
+            <form action="https://api.web3forms.com/submit" method="POST">
+                <input type="hidden" name="access_key" value="f944085f-4fde-4c4b-8ce9-0fc5c10190d2">
                 
-                <div class="linea_1"></div>
-
-                <div class="contenido">
-                    <p class="texto">
-                        En CookByte, creemos que cocinar no tiene que ser complicado. 
-                        Nuestra misión es ofrecer recetas accesibles, bien explicadas y llenas de sabor, 
-                        para que cualquiera pueda disfrutar de la cocina sin estrés. 
-                        Queremos ser tu compañero de confianza en cada paso, 
-                        ayudándote a descubrir nuevas recetas, trucos y consejos prácticos.
-                    </p>
-
-                    <div class="linea_2"></div>
-
-                    <img src="../Imgs/Imgs_Index/Contenido_3_Img/Plato.jpg" alt="Plato Tradicional Brasileño">
+                <div>
+                    <input name="name" id="nombre" type="text" placeholder="¿Como te llama tu Madre?" pattern="[a-zA-Z]+" required>
+                    <input name="email" id="correo" type="email" placeholder="¿En donde recibes Spam?" pattern="[a-z0-9]{1,20}[@][a-z0-9]{1,15}\.[a-z]{2,5}" required>
                 </div>
                 
+                <textarea name="message" placeholder="Escribe lo que piensas..."></textarea>
                 
-            </div>
+                <!-- Honeypot Spam Protection -->
+                <input type="checkbox" name="botcheck" class="hidden" style="display: none;">
 
-            <div class="bloque" id="contenido4">
-                <h2> Recetas en Tendencia </h2>
-
-                <div class="linea"></div>
-
-                <div class="carrusel"></div>
-            </div>
+                <button type="submit">Enviar</button>
+            </form>
         </article>
 
         <footer>
