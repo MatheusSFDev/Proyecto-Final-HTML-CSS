@@ -2,7 +2,8 @@
 
 div#contenido1 {
     background-color: #157F50;
-    background-image: url(../../Imgs/Imgs_Index/Contenido_1_Fondo/Fondo_Desktop.jpg);
+    background-image: url(../../Imgs/Imgs_Index/Contenido_1_Fondo/Fondo_Inicio.jpg);
+    background-size: cover;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -27,8 +28,3 @@ div#contenido1 h2 { font-size: 4vw; }
     div#contenido1 h1 { font-size: 20vw; }
     div#contenido1 h2 { font-size: 8vw; }
 }
-
-/*Responsividad para la imagen de Fondo */
-@media (min-width: 1921px) { div#contenido1 { background-image: url(../../Imgs/Imgs_Index/Contenido_1_Fondo/Fondo_LargerDesktop.jpg); } }
-@media (min-width: 601px) and (max-width: 1279px) { div#contenido1 { background-image: url(../../Imgs/Imgs_Index/Contenido_1_Fondo/Fondo_Tablet.jpg); } }
-@media (max-width: 600px) { div#contenido1 { background-image: url(../../Imgs/Imgs_Index/Contenido_1_Fondo/Fondo_Mobile.jpg); } }

@@ -31,25 +31,26 @@ div#contenido4 .carrusel {
     border-radius: 32px;
     margin-bottom: 48px;
     background-color: #FFF8E1;
-    background-size: 100%;
+    background-size: cover;
     background-repeat: no-repeat;
     background-position: 50% 50%;
-    background-image: url( "../../Imgs/Imgs_Index/Contenido_4_Carrosel/Desktop/PastaCarbonara.jpg"),
-                      url( "../../Imgs/Imgs_Index/Contenido_4_Carrosel/Desktop/Lasana.jpg"),
-                      url( "../../Imgs/Imgs_Index/Contenido_4_Carrosel/Desktop/LemonPie.jpg"),
-                      url( "../../Imgs/Imgs_Index/Contenido_4_Carrosel/Desktop/CerdoAgridulce.jpg"),
-                      url( "../../Imgs/Imgs_Index/Contenido_4_Carrosel/Desktop/Brownie.jpg"),
-                      url( "../../Imgs/Imgs_Index/Contenido_4_Carrosel/Desktop/PastaCarbonara.jpg");
+    /* Aqui pongo todas la imagenes para que se Pre-Carguen al entrar a la pagina */
+    background-image: url( "../../Imgs/Imgs_Index/Contenido_4_Carrosel/PastaCarbonara.jpg"),
+                      url( "../../Imgs/Imgs_Index/Contenido_4_Carrosel/Lasana.jpg"),
+                      url( "../../Imgs/Imgs_Index/Contenido_4_Carrosel/LemonPie.jpg"),
+                      url( "../../Imgs/Imgs_Index/Contenido_4_Carrosel/CerdoAgridulce.jpg"),
+                      url( "../../Imgs/Imgs_Index/Contenido_4_Carrosel/Brownie.jpg"),
+                      url( "../../Imgs/Imgs_Index/Contenido_4_Carrosel/PastaCarbonara.jpg");
     animation: carrusel 30s ease 0s infinite;
 }
 
 @keyframes carrusel {
-    0% {background-image: url( "../../Imgs/Imgs_Index/Contenido_4_Carrosel/Desktop/PastaCarbonara.jpg");}
-    20% {background-image: url( "../../Imgs/Imgs_Index/Contenido_4_Carrosel/Desktop/Lasana.jpg");}
-    40% {background-image: url( "../../Imgs/Imgs_Index/Contenido_4_Carrosel/Desktop/LemonPie.jpg");}
-    60% {background-image: url( "../../Imgs/Imgs_Index/Contenido_4_Carrosel/Desktop/CerdoAgridulce.jpg");}
-    80% {background-image: url( "../../Imgs/Imgs_Index/Contenido_4_Carrosel/Desktop/Brownie.jpg");}
-    100% {background-image: url( "../../Imgs/Imgs_Index/Contenido_4_Carrosel/Desktop/PastaCarbonara.jpg");}
+    0% {background-image: url( "../../Imgs/Imgs_Index/Contenido_4_Carrosel/PastaCarbonara.jpg");}
+    20% {background-image: url( "../../Imgs/Imgs_Index/Contenido_4_Carrosel/Lasana.jpg");}
+    40% {background-image: url( "../../Imgs/Imgs_Index/Contenido_4_Carrosel/LemonPie.jpg");}
+    60% {background-image: url( "../../Imgs/Imgs_Index/Contenido_4_Carrosel/CerdoAgridulce.jpg");}
+    80% {background-image: url( "../../Imgs/Imgs_Index/Contenido_4_Carrosel/Brownie.jpg");}
+    100% {background-image: url( "../../Imgs/Imgs_Index/Contenido_4_Carrosel/PastaCarbonara.jpg");}
 }
 
 /*Responsive for Tablets*/
@@ -71,14 +72,5 @@ div#contenido4 .carrusel {
         width: 90vw;
         height: 110vw;
         max-height: 75vh;
-    }
-
-    @keyframes carrusel {
-        0% {background-image: url( "../../Imgs/Imgs_Index/Contenido_4_Carrosel/Mobile/PastaCarbonara.jpg");}
-        20% {background-image: url( "../../Imgs/Imgs_Index/Contenido_4_Carrosel/Mobile/Lasana.jpg");}
-        40% {background-image: url( "../../Imgs/Imgs_Index/Contenido_4_Carrosel/Mobile/LemonPie.jpg");}
-        60% {background-image: url( "../../Imgs/Imgs_Index/Contenido_4_Carrosel/Mobile/CerdoAgridulce.jpg");}
-        80% {background-image: url( "../../Imgs/Imgs_Index/Contenido_4_Carrosel/Mobile/Brownie.jpg");}
-        100% {background-image: url( "../../Imgs/Imgs_Index/Contenido_4_Carrosel/Mobile/PastaCarbonara.jpg");}
     }
 }

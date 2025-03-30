@@ -48,6 +48,7 @@ div#contenido2 .texto {
         padding: 0px 32px;
         padding-bottom: 48px;
     }
+
     div#contenido2 .linea {
         min-width: 80vw;
         min-height: 1vh;
@@ -55,8 +56,11 @@ div#contenido2 .texto {
         margin: 4px;
         margin-bottom: 32px;
     }
+
     div#contenido2 .titulo_horizontal{ flex-direction: row; }
+
     div#contenido2 .titulo_horizontal p { font-size: 20vw; }
+    
     div#contenido2 .texto { 
         font-size: 5vw; 
         width: 70vw;
