@@ -67,28 +67,46 @@ article iframe {
     }
 }
 
+/* Adaptabilidad para Mobile */
+
+article div#mobile { 
+    visibility: hidden;
+    min-width: 0px;
+    min-height: 0px;
+    max-width: 0px;
+    max-height: 0px;
+}
+
 /*Responsive for Mobile*/
 @media (max-width: 800px) {
-    article { flex-direction: column; }
+    article div#mobile { 
+        visibility: visible;
+        max-width: 95vw;
+        max-height: 200vh;
+    }
+
+    article div#desktop { display: none; }
+    article iframe { display: none; }
+
+    article { 
+        flex-direction: column;
+        justify-content: center;     
+        min-height: 100vh;
+    }
 
     article div.recetas {
         flex-flow: row wrap;
-        width: 90vw;
-        min-height: 100px;
+        width: 95vw;
     }
 
     article div.recetas .cuadrado {
-        width: 35vw;
-        height: 10vh;  
+        width: 65vw;
+        height: 25vh;  
     }
-
+    
     article div.recetas .cuadrado:hover {
-        height: 20vh;
+        width: 70vw;
+        height: 40vh;
         margin: 12px 0px;
-    }
-
-    article iframe {
-        width: 90vw;
-        height: 85vh;
     }
 }

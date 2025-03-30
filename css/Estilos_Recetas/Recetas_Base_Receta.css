@@ -1,16 +1,5 @@
 /* by Matheus Souza */
 
-* {margin: 0;}
-
-@font-face {
-    font-family: 'Birthstone';
-    src: url(../../Fonts/Titulos_Birthstone-Regular.ttf) format('truetype');
-}
-@font-face {
-    font-family: 'Pattaya';
-    src: url(../../Fonts/Textos_Pattaya-Regular.ttf) format('truetype');
-}
-
 section {
     display: flex;
     justify-content: center;
@@ -180,5 +169,12 @@ section .historia p {
     .receta .pasos {
         min-width: 90vw;
         max-width: 95vw;
+    }
+}
+
+/* Esconder el Header y Footer */
+@media (min-width: 801px) {
+    header, footer {
+        display: none;
     }
 }

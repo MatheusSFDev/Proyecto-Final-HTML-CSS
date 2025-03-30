@@ -3,15 +3,19 @@
 
 <html lang="es">
     <head>
-        <title> Cerdo Agridulce </title>
+        <title> CookByte - Cerdo Agridulce </title>
 
         <!-- Meta's -->
         <meta charset="UTF-8">
         <meta name="rating" content="General">
+        <meta name="description" content="Recipe, Pork, Food">
         <meta name="author" content="Matheus Souza Fernandes">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         
         <!-- CSS -->
+        <link rel="stylesheet" href="../../CSS/FlexBox_Base.css">
+        <link rel="stylesheet" href="../../CSS/Header_Base.css">
+        <link rel="stylesheet" href="../../CSS/Footer_Base.css">
         <link rel="stylesheet" href="../../CSS/Estilos_Recetas/Recetas_Base_Receta.css">
         <style>
             section { background-image: url("../../Imgs/Imgs_Recetas/Imgs_Receta/CerdoAgridulce.jpg"); }
@@ -19,6 +23,26 @@
     </head>
 
     <body>
+        <header>
+            <img class="img_logo" src="../../Imgs/Logo.jpg" alt="Logo CookByte">
+
+            <input id="Menu" type="checkbox">
+
+            <nav>
+                <label class="boton" for="Menu">
+                    <span class="barra"></span>
+                    <span class="barra"></span>
+                    <span class="barra"></span>
+                </label>
+
+                <ul>
+                    <li> <a href="../index.html" target="_self"> Inicio </a> </li>
+                    <li> <a href="../recetas.html" target="_self"> Recetas </a> </li>
+                    <li> <a href="" target="_self"> Contacto </a>  </li>
+                </ul>
+            </nav>
+        </header>
+
         <section>
             <h1> Cerdo Agridulce </h1>
             
@@ -130,5 +154,55 @@
                 </div>
             </div>
         </section>
+
+        <footer>
+            <div class="footer_linear">
+                <!-- Certificación CSS W3C -->
+                <p class="w3c"> W3C CSS </p>
+                
+                <!-- Iconos de Enlaces -->
+                <div class="iconos"> 
+                    <a href="https://github.com/MatheusSFDev/Proyecto-Final-HTML-CSS.git" hreflang="en" target="_blank">
+                        <svg fill="#000000" width="75px" height="75px" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" data-name="Layer 1">
+                            <path d="M12,2.2467A10.00042,10.00042,0,0,0,8.83752,21.73419c.5.08752.6875-.21247.6875-.475,0-.23749-.01251-1.025-.01251-1.86249C7,19.85919,6.35,18.78423,6.15,18.22173A3.636,3.636,0,0,0,5.125,16.8092c-.35-.1875-.85-.65-.01251-.66248A2.00117,2.00117,0,0,1,6.65,17.17169a2.13742,2.13742,0,0,0,2.91248.825A2.10376,2.10376,0,0,1,10.2,16.65923c-2.225-.25-4.55-1.11254-4.55-4.9375a3.89187,3.89187,0,0,1,1.025-2.6875,3.59373,3.59373,0,0,1,.1-2.65s.83747-.26251,2.75,1.025a9.42747,9.42747,0,0,1,5,0c1.91248-1.3,2.75-1.025,2.75-1.025a3.59323,3.59323,0,0,1,.1,2.65,3.869,3.869,0,0,1,1.025,2.6875c0,3.83747-2.33752,4.6875-4.5625,4.9375a2.36814,2.36814,0,0,1,.675,1.85c0,1.33752-.01251,2.41248-.01251,2.75,0,.26251.1875.575.6875.475A10.0053,10.0053,0,0,0,12,2.2467Z"/>
+                        </svg>
+                    </a>
+                    <a href="https://www.linkedin.com/in/matheus-souza-fernandes-6a7346347" hreflang="es" rel="author" target="_blank">
+                        <svg width="75px" height="75px" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M3 1a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2V3a2 2 0 00-2-2H3zm1.102 4.297a1.195 1.195 0 100-2.39 1.195 1.195 0 000 2.39zm1 7.516V6.234h-2v6.579h2zM6.43 6.234h2v.881c.295-.462.943-1.084 2.148-1.084 1.438 0 2.219.953 2.219 2.766 0 .087.008.484.008.484v3.531h-2v-3.53c0-.485-.102-1.438-1.18-1.438-1.079 0-1.17 1.198-1.195 1.982v2.986h-2V6.234z" fill="#000000"/>
+                        </svg>
+                    </a>
+                </div>
+
+                <!-- Botón de Volver Arriba -->
+                <a class="volver" href="#" hreflang="es" target="_self">
+                    <svg fill="#F4E1C1" width="75px" height="75px" viewBox="0 -6 524 524" xmlns="http://www.w3.org/2000/svg" >
+                        <title>Volver Arriba</title>
+                        <path d="M460 321L426 355 262 192 98 355 64 321 262 125 460 321Z" />
+                    </svg>
+                </a>
+            </div>
+
+            <div class="cc">
+                <!-- Creative Communs -->
+                <p xmlns:cc="http://creativecommons.org/ns#" xmlns:dct="http://purl.org/dc/terms/">
+                    <a property="dct:title" rel="cc:attributionURL" href="https://github.com/MatheusSFDev/Proyecto-Final-HTML-CSS.git">
+                        Proyecto Final HTML/CSS
+                    </a> 
+                    by 
+                    <a rel="cc:attributionURL dct:creator" property="cc:attributionName" href="https://github.com/MatheusSFDev">
+                        Matheus Souza Fernandes
+                    </a> 
+                    is licensed under 
+                    <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;">
+                        CC BY-NC-ND 4.0
+                        <img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1" alt="">
+                        <img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1" alt="">
+                        <img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/nc.svg?ref=chooser-v1" alt="">
+                        <img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/nd.svg?ref=chooser-v1" alt="">
+                    </a>
+                </p>
+            </div>
+        </footer>
     </body>
 </html>
